@@ -30,8 +30,8 @@ class MiddleSection extends React.Component {
 const Body = () => {
   return (
     <div className="container position-relative bg-primary">
-      <h1>Hi There</h1>
-      <h3>This Is Sands & I'm using React</h3>
+      <h1 className="font-monospace">Hi There</h1>
+      <h3 className="font-monospace">This Is Sands & I'm using React</h3>
       <MainContent />
       <MiddleSection />
     </div>

@@ -13,12 +13,27 @@ const MainContent = () => {
   );
 };
 
+class MiddleSection extends React.Component {
+  render() {
+    return (
+      <div className="container bg-dark text-light">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+          aspernatur ullam corporis dignissimos eum id odio accusamus
+          repellendus eos enim.
+        </p>
+      </div>
+    );
+  }
+}
+
 const Body = () => {
   return (
     <div className="container position-relative bg-primary">
       <h1>Hi There</h1>
       <h3>This Is Sands & I'm using React</h3>
       <MainContent />
+      <MiddleSection />
     </div>
   );
 };
